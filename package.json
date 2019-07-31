@@ -1,0 +1,26 @@
+{
+  "name": "habitica-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot to integrate Habitica with your Discord channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliottpalermo/habitica-discord-bot.git"
+  },
+  "author": "Elliott Palermo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elliottpalermo/habitica-discord-bot/issues"
+  },
+  "homepage": "https://github.com/elliottpalermo/habitica-discord-bot#readme",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "habitica": "^4.0.0",
+    "lodash": "^4.17.15",
+    "lowdb": "^1.0.0",
+    "winston": "^3.2.1"
+  }
+}
