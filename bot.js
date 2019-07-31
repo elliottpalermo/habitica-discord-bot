@@ -3,9 +3,9 @@ const logger = require('winston');
 const discordAuth = require('./discord_auth.json');
 const habitica = require('habitica');
 const _ = require('lodash');
-const low = require('lowdb')
-const FileSync = require('lowdb/adapters/FileSync')
-const adapter = new FileSync('db.json')
+const low = require('lowdb');
+const FileSync = require('lowdb/adapters/FileSync');
+const adapter = new FileSync('db.json');
 const db = low(adapter);
 
 
